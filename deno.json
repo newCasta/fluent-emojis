@@ -1,0 +1,16 @@
+{
+    "tasks": {
+        "start": "deno run main.ts",
+        "dev": "deno run -A --watch main.ts"
+    },
+    "imports": {
+        "oak": "https://deno.land/x/oak@v12.6.1/mod.ts",
+        "dotenv": "https://deno.land/std@0.207.0/dotenv/mod.ts",
+        "cors": "https://deno.land/x/cors@v1.2.2/mod.ts",
+        "config/": "./src/config/",
+        "middlewares/": "./src/middlewares/",
+        "routes/": "./src/routes/",
+        "services/": "./src/services/"
+    },
+    "lock": false
+}

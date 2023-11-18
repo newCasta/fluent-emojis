@@ -10,7 +10,8 @@
         "config/": "./src/config/",
         "middlewares/": "./src/middlewares/",
         "routes/": "./src/routes/",
-        "services/": "./src/services/"
+        "services/": "./src/services/",
+        "types/": "./src/types/"
     },
     "lock": false
 }
